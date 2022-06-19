@@ -1046,6 +1046,14 @@ div#rev_slider_one {
     padding: 0px 0px 10px 15px;
     width: unset;
 }
+
+@media only screen and (max-width: 650px){
+
+	
+	.animate-effect img{
+		display: none;
+	}
+}
 	.main-slider .big-title{
 		font-size:30px;
 	}
