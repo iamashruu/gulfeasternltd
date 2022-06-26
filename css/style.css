@@ -3025,6 +3025,23 @@ img{
 	border-color:#00adc8;
 }
 
+  .civilImage {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .civilImageInner {
+	flex: 33.3%;
+	justify-content: space-between;
+	padding: 8px;
+	
+  }
+  
+  .civilImageInner img {
+	width: 100%;
+	height: 400px;
+  }
+
 /*** 
 
 ====================================================================
